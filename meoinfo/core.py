@@ -28,5 +28,6 @@ class Meoinfo:
                 search_params: dict = None        # grid search params
     ):
         store_attr()
+        __repr__ = basic_repr('algorithm')
 
         
